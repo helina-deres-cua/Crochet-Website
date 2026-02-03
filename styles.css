@@ -3,7 +3,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr 1fr 1fr 1fr auto;
+  grid-template-rows: atuo 1fr 1fr 1fr auto;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   background-color: #fddde6;
@@ -84,10 +84,10 @@
 
 
 
-/* MEDIA QUERIES 
+/* MEDIA QUERIES */
 @media (orientation: portrait) {
   .header {
-    height: 100%;
+    padding: 20px 0;
   }
 
   .title {
@@ -104,4 +104,3 @@
   }
 
 }
-*/
