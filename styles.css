@@ -31,7 +31,7 @@
 }
 
 
-/* MAIN */
+/* MAIN SECTION */
 main {
   display: contents;
 }
@@ -84,7 +84,6 @@ main {
   position: sticky;
   color: white;
 }
-
 .footer-text {
   text-align: center;
   vertical-align: middle;
